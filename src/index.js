@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Link } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
+    <nav>
+      <Link to="/">Home</Link>{" "}
+      <Link to="/super-heroes">SuperHeroes</Link>{" "}
+      <Link to="/rq-super-heroes">RQSuperHeroes</Link>{" "}
+      <Link to="/rq-paralal-query">RQParallalQuery</Link>{" "}
+      <Link to="/rq-dynamic-paralal-query">RQDynamicParallalQuery</Link>{" "}
+      <Link to="/rq-dependent-query">RQDependentQuery</Link>{" "}
+      <Link to="/rq-paginated-query">PaginatedQueriesPage</Link>
+      <Link to="/rq-infinite-queries">InfiniteQueries</Link>
+    </nav>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

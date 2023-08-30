@@ -1,0 +1,121 @@
+{
+  "superheros": [
+    {
+      "id": 1,
+      "name": "batman",
+      "alterName": "bluce"
+    },
+    {
+      "id": 2,
+      "name": "superman",
+      "alterName": "clark"
+    },
+    {
+      "id": 3,
+      "name": "wonder women",
+      "alterName": "diana"
+    },
+    {
+      "name": "k",
+      "alterName": "a",
+      "id": 4
+    },
+    {
+      "name": "k",
+      "alterName": "a",
+      "id": 5
+    },
+    {
+      "name": "k",
+      "alterName": "a",
+      "id": 6
+    },
+    {
+      "name": "k",
+      "alterName": "a",
+      "id": 7
+    },
+    {
+      "name": "k",
+      "alterName": "a",
+      "id": 8
+    },
+    {
+      "name": "a",
+      "alterName": "k",
+      "id": 9
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "mani"
+    },
+    {
+      "id": 2,
+      "name": "vamshi"
+    },
+    {
+      "id": 3,
+      "name": "pandu"
+    },
+    {
+      "id": 4,
+      "name": "anil"
+    }
+  ],
+  "users": [
+    {
+      "id": "ka333007@gmail.com",
+      "channelId": "kaVlogs"
+    },
+    {
+      "id": "ak333007@gmail.com",
+      "channelId": "akVlogs"
+    }
+  ],
+  "channels": [
+    {
+      "id": "akVlogs",
+      "videos": [
+        "education",
+        "family",
+        "friends"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "green"
+    },
+    {
+      "id": 3,
+      "label": "blue"
+    },
+    {
+      "id": 4,
+      "label": "white"
+    },
+    {
+      "id": 5,
+      "label": "black"
+    },
+    {
+      "id": 6,
+      "label": "orange"
+    },
+    {
+      "id": 7,
+      "label": "purple"
+    },
+    {
+      "id": 8,
+      "label": "pink"
+    }
+  ]
+}
